@@ -1,20 +1,17 @@
 {
   "name": "json-bigint-fix",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "JSON.parse with bigints support",
   "main": "index.js",
-  "types": "lib/index.d.ts",
+  "types": "index.d.ts",
   "files": [
     "index.js",
-    "lib/parse.js",
-    "lib/stringify.js"
+    "index.d.ts",
+    "lib"
   ],
-  "scripts": {
-    "test": "./node_modules/mocha/bin/mocha -R spec --check-leaks test/*-test.js"
-  },
   "repository": {
     "type": "git",
-    "url": "git@github.com:sidorares/json-bigint.git"
+    "url": "https://github.com/Shadowsight9/json-bigint.git"
   },
   "keywords": [
     "JSON",
@@ -23,7 +20,7 @@
     "parse",
     "json"
   ],
-  "author": "Andrey Sidorov <sidorares@yandex.ru>",
+  "author": "SS <a368z@qq.com>",
   "license": "MIT",
   "dependencies": {
     "bignumber.js": "^9.0.0"
